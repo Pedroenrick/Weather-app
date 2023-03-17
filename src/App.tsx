@@ -1,9 +1,12 @@
+import { Container } from "./components/Container/Container.component";
+import { TemperatureNow } from "./components/Cards/TemperatureNow/TemperatureNow.component";
+
 function App() {
   return (
-    <div className="App">
-      Weather App
-    </div>
-  )
+    <Container>
+      <TemperatureNow />
+    </Container>
+  );
 }
 
-export default App
+export default App;

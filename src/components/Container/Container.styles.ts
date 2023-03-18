@@ -7,4 +7,6 @@ export const StyledContainer = styled.main`
 
   display: grid;
   place-content: center;
+  gap: 2.4rem;
+  padding: 6.4rem;
 `;

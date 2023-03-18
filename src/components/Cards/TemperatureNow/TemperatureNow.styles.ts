@@ -6,8 +6,6 @@ export const CardContainer = styled.section`
   display: grid;
   grid-template-rows: max-content 1fr max-content;
   background: url(${temp});
-  height: 48rem;
-  width: 48rem;
   border-radius: 1rem;
   position: relative;
 

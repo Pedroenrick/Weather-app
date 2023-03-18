@@ -9,4 +9,9 @@ export const StyledContainer = styled.main`
   place-content: center;
   gap: 2.4rem;
   padding: 6.4rem;
+
+  @media (min-width: 1200px) {
+    grid-template-columns: 48rem 27.7rem 27.7rem;
+    grid-template-rows: 24.4rem 21.2rem;
+  }
 `;

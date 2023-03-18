@@ -18,6 +18,10 @@ export const CardContainer = styled.section`
     top: -5.6rem;
     left: -5.6rem;
   }
+
+  @media (min-width: 1200px) {
+    grid-row: 1/3;
+  }
 `;
 
 export const Location = styled.div`
